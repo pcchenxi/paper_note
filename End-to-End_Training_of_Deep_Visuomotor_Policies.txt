@@ -1,0 +1,12 @@
+Challenges:
+1. successful application of deep neural networks typically rely on large amounts of data and direct supervision of the output, neigher of which is avaiable in robotic control.
+2. learning algorithm must determine on its own which action to take at each point.
+3. observations from the robot's sensors do not provide us with the full state of the system.
+
+The challenges are addressed by developing a guided policy search algorithm for sensorimotor deep learning, as well as a novel CNN architecture designed for robotic control.
+
+ Our CNNs have 92,000 parameters and 7 layers, including a novel spatial feature point transformation that provides accurate spatial reasoning and reduces overfitting.
+
+Background and overview:
+In this section, we define the visuomotor policy learning problem and present an overview of our approach. The core component of our approach is a guided policy search algorithm that separates the problem of learning visuomotor policies into separate supervised learning
+and trajectory learning phases, each of which is easier than optimizing the policy directly. We also discuss a policy architecture suitable for end-to-end learning of vision and control, and a training setup that allows our method to be applied to real robotic platforms.
