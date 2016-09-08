@@ -1,0 +1,10 @@
+---------------Abstract:
+3D terrain understanding and structure estimation is a crucial issue for robots naviation rescue scenarios. Large scale point cloud do not tell the useful information directly. In this work a preliminary method is proposed for point cloud structuring that lead to a traversability map labeled with a cost. The cost is assosiated with the robot constraints including length, height, weight and its kinematics.
+
+--------------Intruction
+There is no way to go toward autonomy or semi-autonomy as far as a terrain structure interpretation is not adequately faced and approximatively solved. 
+The paper is trying to establish where the terrain provides a stable ground for the robot using laser point cloud.
+The challenges are: 1. computational facilities, real-time terrain structure estimation, risk and cost evaluation. 
+In this work they look forward to a more general and on-line terrain description.
+
+
